@@ -48,6 +48,8 @@
         "no-trailing-spaces": "error",
         "arrow-parens": ["error", "as-needed"],
         "array-element-newline": ["error", "always"],
-        "array-bracket-newline": ["error", "always"]
+        "array-bracket-newline": ["error", "always"],
+        "eqeqeq": ["error", "always"],
+        "arrow-spacing": "error"
     }
 }
