@@ -1,0 +1,28 @@
+{
+  "name": "td-bot",
+  "version": "0.0.0",
+  "description": "Bot for Twitch and Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterl/td-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "twitch",
+    "discord"
+  ],
+  "author": "Leonardo de Oliveira Lourenço",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masterl/td-bot/issues"
+  },
+  "homepage": "https://github.com/masterl/td-bot#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
