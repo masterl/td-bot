@@ -21,7 +21,9 @@
     "url": "https://github.com/masterl/td-bot/issues"
   },
   "homepage": "https://github.com/masterl/td-bot#readme",
-  "dependencies": {},
+  "dependencies": {
+    "ws": "^7.2.3"
+  },
   "devDependencies": {
     "eslint": "^6.8.0"
   }
