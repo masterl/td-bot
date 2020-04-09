@@ -42,13 +42,13 @@
         "padded-blocks": ["error", "never"],
         "operator-assignment": ["error", "always"],
         "space-infix-ops": "error",
-        "object-curly-newline": ["error", "always"],
+        "object-curly-newline": ["error", { "minProperties": 2 }],
         "object-property-newline": "error",
         "brace-style": ["error", "allman"],
         "no-trailing-spaces": "error",
         "arrow-parens": ["error", "as-needed"],
         "array-element-newline": ["error", "always"],
-        "array-bracket-newline": ["error", "always"],
+        "array-bracket-newline": ["error", { "multiline": true, "minItems": 1 }],
         "eqeqeq": ["error", "always"],
         "arrow-spacing": "error"
     }
