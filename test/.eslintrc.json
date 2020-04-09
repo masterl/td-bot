@@ -1,0 +1,14 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "plugins": [
+  ],
+  "globals": {
+    "expect": true,
+    "rfr": true
+  },
+  "rules": {
+    "no-unused-expressions": 0
+  }
+}
