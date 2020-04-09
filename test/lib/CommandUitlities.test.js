@@ -1,6 +1,6 @@
-const Commands = rfr('lib/Commands');
+const CommandUtilities = rfr('lib/CommandUtilities');
 
-describe('Commands',() =>
+describe('CommandUtilities',() =>
 {
     describe('extract_command_name',() =>
     {
@@ -10,7 +10,7 @@ describe('Commands',() =>
             {
                 const raw_message = '!test';
 
-                expect(Commands.extract_command_name(raw_message)).to.be.equal('test');
+                expect(CommandUtilities.extract_command_name(raw_message)).to.be.equal('test');
             });
         });
 
@@ -20,7 +20,7 @@ describe('Commands',() =>
             {
                 const raw_message = '!test blabla blabla';
 
-                expect(Commands.extract_command_name(raw_message)).to.be.equal('test');
+                expect(CommandUtilities.extract_command_name(raw_message)).to.be.equal('test');
             });
         });
     });
@@ -33,7 +33,7 @@ describe('Commands',() =>
             {
                 const raw_message = '!test';
 
-                expect(Commands.extract_command_argument_string(raw_message)).to.be.equal('');
+                expect(CommandUtilities.extract_command_argument_string(raw_message)).to.be.equal('');
             });
         });
 
@@ -43,7 +43,7 @@ describe('Commands',() =>
             {
                 const raw_message = '!test blabla bla';
 
-                expect(Commands.extract_command_argument_string(raw_message)).to.be.equal('blabla bla');
+                expect(CommandUtilities.extract_command_argument_string(raw_message)).to.be.equal('blabla bla');
             });
         });
     });
